@@ -7,9 +7,10 @@ _project:
     - "辉文gege"
     - "秋红葉"
     - "dotzo"
+    - "KatieShesko"
   description: "100% Route using Great Eagle Bow with WMC"
   name: 100% (OmeGEB)
-  url: https://celer.itntpiston.app/#/gh/dotzo/omegeb/v1
+  url: https://celer.itntpiston.app/#/gh/dotzo/omegeb/katie
   version: 1.0
 
 _config:
@@ -96,27 +97,27 @@ _route:
   - _Npc::SheikaMale<Old Man>:
       coord: [-461.70, 178.41, 1990.18]
       comment: Text option 2-1-1-2
-
-  - _Shrine::OmanAu:
-      notes: Clear ragdoll glitch in shrine
-      comment: Magnesis shrine
-
-  - .dir(<S) low angle
+  
+  - BLSS to Tower
   - _Tower::GreatPlateau
 
-  - Jump down, BLSS to old man's hut
+  - BLSS to Magnesis off first Tower step
+  - _Shrine::OmanAu:
+      comment: Magnesis shrine
 
-  - _Korok::P18
-  - _Shrine::OwaDaim:
-      comment: Stasis shrine
+  - _Warp::Tower::GreatPlateau
 
-  - Boulder ride
   - BLSS to shrine
   - _Shrine::KehNamut:
       comment: Cryonis shrine
+  
+  - BLSS to shrine
+  - _Shrine::OwaDaim:
+      comment: Stasis shrine
 
-  - BLSS to Temple of Time
-
+  - BLSS to Temple of Time Spire
+  - _Korok::P11
+  
   - .!!(Paraglider):
       icon: king
       coord: [-809.33, 263.58, 1964.35]
@@ -176,11 +177,16 @@ _route:
   - _Korok::R60
 
   - BLSS to .loc(Hyrule Castle):
-      coord: [-390.25, 166.00, -837.10]
+      movements: 
+        - to: [-390.25, 166.00, -837.10]
+        - to: [-315.59375,-772.9375]
+          away: true
   - Through unloaded gate:
       icon: equipment
       hide-icon-on-map: true
       notes: Drop 5 Branches, Axe, and Traveler Bow while waiting for castle cutscene. If the gate loads then ESC in or run around the side entrance.
+
+
   - _Equipment::Bow<Falcon Bow>:
       comment: Against wall on upper level
       coord: [-412.66, 182.53, -851.28]
@@ -204,6 +210,7 @@ _route:
       hide-icon-on-map: true
       icon: hinox-blue
       notes: Tail, 2 Talon, Horn
+      
 
   - _Cook<Cook stamina food>:
       coord: [-330.55, 192.35, -834.53]
@@ -267,7 +274,8 @@ _route:
       coord: [1564.5,358.5]
   - _Shrine::DakaTuss:
       comment: Fronthop, Fronthop + Bomb, Neutral hop + Remove Shield, dmg boost; WB up
-  - .dir(S) + .dir(E>) + .dir(S)
+  - .dir(S) + .dir(SE) + .dir(SE): 
+      notes: .link([https://youtu.be/WLZB9rOYnEs]https://youtu.be/WLZB9rOYnEs)
   - _Shrine::TalohNaeg:
       comment: Opal in chest
   - _Material<2 Nightshade>:
@@ -2990,11 +2998,11 @@ _route:
       text: Stasis shrine
       comment: WARP
 
-  - .dir(N.)
-  - _Korok::P11:
-      comment: Spire of temple
+  - .dir(.E)
+  - _Korok::P18:
+      comment: Old Man's Hut
 
-  - .dir(NW) down
+  - .dir(.N)
   - _Korok::P10:
       comment: " "
 
