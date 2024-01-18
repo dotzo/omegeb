@@ -104,6 +104,9 @@ _route:
   - BLSS to Magnesis off first Tower step
   - _Shrine::OmanAu:
       comment: Magnesis shrine
+  - _Material<Hyrule Herb>:
+      coord: [-701.94, 171.35, 1482.14]
+
 
   - _Warp::Tower::GreatPlateau
 
