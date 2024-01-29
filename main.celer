@@ -427,7 +427,8 @@ _route:
   - _Korok::F06
 
   - .dir(SW)
-  - _Korok::F09
+  - _Korok::F09:
+      notes: .link([Strat]https://youtu.be/WCBF-B5zNpY)
 
   - .dir(W)
   - _Korok::F08
