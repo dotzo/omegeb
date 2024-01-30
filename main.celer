@@ -949,7 +949,7 @@ _route:
 
   - .boss(Thunderblight):
       icon: ganon
-      notes: .rune(Stasis), Fire arrows, → 2 GEB body + 1 OmeGEB head
+      notes: Break shield with two 2hander swings, .rune(Stasis), Fire arrows, → 2 GEB body + 1 OmeGEB head
       hide-icon-on-map: true
 
   - .!!(Urbosa's Fury):
