@@ -1425,6 +1425,10 @@ _route:
   - .dir(W>) down
   - _Korok::Z33
 
+  - _Discover<Luto's Crossing>:
+      coord: [3085.11, 263.68, 8.17]
+      notes: Discover location as you fly over
+
   - .dir(<W)
   - _Npc::ZoraMale<Zora Monument>:
       coord: [3099.83, 236.67, 70.72]
@@ -1433,10 +1437,6 @@ _route:
           Monument: 1
 
   - .dir(N>) turn
-  - _Discover<Luto's Crossing>:
-      coord: [3085.11, 263.68, 8.17]
-      notes: Discover location as you fly over
-
   - _Korok::Z32
 
   - .dir(<N)
@@ -1536,6 +1536,9 @@ _route:
   - .dir(SW)
   - _Boss::Hinox::Blue:
       coord: [2930.51, 312.54, -298.40]
+
+  - _Equipment::Bow<Knights Bow>:
+      notes: Pick up from Hinox
 
   - .dir(S)
   - _Korok::Z24:
@@ -1660,7 +1663,7 @@ _route:
   - _Korok::A51:
       comment: " "
 
-  - .dir(S>)
+  - .dir(S>)parade
   - _Discover<Sokkala Bridge>:
       coord: [3686.27, 341.42, -1004.02]
 
@@ -1677,9 +1680,6 @@ _route:
 
   - _Boss::Hinox::Blue:
       coord: [3298.75, 323.08, -1256.24]
-
-  - _Equipment::Bow<Knights Bow>:
-      notes: Pick up from Hinox
 
   - .dir(W)
   - _Korok::A50:
@@ -2001,7 +2001,7 @@ _route:
   - Gut Check Challenge:
       icon: tots
       hide-icon-on-map: true
-      comment: .dir(W.) from tree and .gale()
+      comment: Stand on tree directly left of spawn, .dir(W.) and .gale()
       notes: Collect 5 red rupees
       gale: 1
 
