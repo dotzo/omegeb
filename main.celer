@@ -2092,9 +2092,10 @@ _route:
       icon: tots
       coord: [4155.5,-3170.5]
 
-  - .dir(E) super
-  - _Korok::A16:
-      notes: Getting the korok will un-smuggle the torch. Carefully jump down without running or pulling paraglider to finish delivery.
+  - .dir(.W)
+  - _Korok::A14:
+      comment: " "
+      notes: Be climbing when going through the ring or the torch will unsmuggle.
 
   - Activate .loc(Akkala Tech Lab):
       icon: location
@@ -2112,14 +2113,14 @@ _route:
       comment: Text options 1-1-3
       notes: The Skull's Eye quest
 
-  - Run .dir(W)
+  - .gale()
+  - _Korok::A16
+      #notes: Getting the korok will un-smuggle the torch. Carefully jump down without running or pulling paraglider to finish delivery.
+
+  - Glide .dir(W)
   - _Korok::A15
 
-  - .dir(.W)
-  - _Korok::A14:
-      comment: " "
-
-  - .dir(N>) midair to .loc(Lomei Labyrinth):
+  - .dir(N>) to .loc(Lomei Labyrinth):
       notes: See map for where to drop in
       coord: [4627,-3693.5]
 
