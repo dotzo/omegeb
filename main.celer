@@ -276,7 +276,7 @@ _route:
   - _Discover<Goponga Village Ruins>:
       coord: [1564.5,358.5]
   - _Shrine::DakaTuss:
-      comment: Fronthop, Fronthop + Bomb, Neutral hop + Remove Shield, dmg boost; WB up
+      comment: Fronthop, Fronthop + Bomb, Neutral Shield Jump + Remove Shield, dmg boost; WB up
   - .dir(S) + .dir(SE) + .dir(SE): 
       notes: .link([https://youtu.be/WLZB9rOYnEs]https://youtu.be/WLZB9rOYnEs)
   - _Shrine::TalohNaeg:
@@ -2854,7 +2854,7 @@ _route:
   - .dir(.S)
   - _Tower::Ridgeland:
       notes: Equip ancient axe + wooden shield to avoid lightning
-      comment: 35.89%
+      comment: 36.06%
 
   - .dir(W)
   - _Korok::R15:
