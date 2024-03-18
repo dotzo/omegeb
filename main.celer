@@ -3523,7 +3523,7 @@ _route:
       comment: SNAP in shrine
 
   - _Shrine::HawaKoth:
-      comment: Set skew outside; Shock; WB; Clip
+      comment: Shock; Cyro up; Shock bridge + Skew; Clip at end
 
   - _Npc::Gerudo<Barta>:
       comment: Behind shrine
