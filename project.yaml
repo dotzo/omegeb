@@ -1,0 +1,36 @@
+title: 100% Route using Great Eagle Bow with WMC
+
+version: 1.0
+
+route:
+  use: ./main.yaml
+
+config:
+- use: Pistonight/celer-presets/botw/full.yaml
+- plugins:
+  - use: link
+  - use: split-format
+    with:
+      Shrines: ".var(counter-korok) - .prop(text)"
+  - use: variables
+- tags:
+    user-defined-split:
+      color: black
+      background: orange
+      split-type: UserDefined
+    gale:
+      color: black
+      background: lime
+    fury:
+      color: black
+      background: orange
+- presets:
+    _Snap:
+      Quest:
+        text: $(0)
+        icon: camera
+        icon-priority: 2
+        comment: SNAP for QUEST
+
+- splits:
+  - user-defined-split
