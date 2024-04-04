@@ -161,7 +161,7 @@
 
   - .dir(W)
   - _Shrine::MoggLatan:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=1469))
+      comment: Right Peg, < aim, backflip WB OR BLSS (.link([vod]https://youtu.be/Aw14LJhXV-8&t=1469))
   - _Korok::R60
 
   - BLSS to .loc(Hyrule Castle):
@@ -255,7 +255,7 @@
   - _Discover<Goponga Village Ruins>:
       coord: [1564.5,358.5]
   - _Shrine::DakaTuss:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=2182))
+      comment: Fronthop, Fronthop + Bomb, Neutral hop + Remove Shield, dmg boost; WB up (.link([vod]https://youtu.be/Aw14LJhXV-8&t=2182))
   - .dir(S) + .dir(E>) + .dir(S)
   - _Shrine::TalohNaeg:
       comment: Opal in chest (.link([vod]https://youtu.be/Aw14LJhXV-8&t=2288))
@@ -653,7 +653,7 @@
 
   - .dir(N>)
   - _Shrine::ShaWarvo:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=7200))
+      comment: High WB and midairs (.link([vod]https://youtu.be/Aw14LJhXV-8&t=7200))
 
   - .dir(N>>)
   - _Boss::Talus::Frost:
@@ -690,7 +690,7 @@
 
   - .dir(<E) + midair
   - _Shrine::ShadaNaw:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=7534))
+      comment: Peg, short straight (.link([vod]https://youtu.be/Aw14LJhXV-8&t=7534))
 
   - .dir(S.) down under ice shelf
   - _Boss::Talus::Frost:
@@ -751,7 +751,7 @@
   - Open cave door:
       notes: .link([Snowball strat]https://www.youtube.com/watch?v=cbn3TgjVdDk&t=10)
   - _Shrine::GeeHarah:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=7903))
+      comment: Left Peg, 90 right wb (.link([vod]https://youtu.be/Aw14LJhXV-8&t=7903))
 
   - .gale(GALE 3) + .dir(N) + .dir(E>) midair:
       movements:
@@ -841,7 +841,7 @@
       notes: 10 needed, can get more later. Take any flint you get too.
       hide-icon-on-map: true
   - _Shrine::KuhTakkar:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=8689))
+      comment: Stasis ice block (.link([vod]https://youtu.be/Aw14LJhXV-8&t=8689))
 
   - .dir(<W)
   - _Boss::Talus::Frost:
@@ -862,7 +862,7 @@
       comment: Benja
       coord: [-3804.64, 149.50, 2818.36]
   - _Shrine::DaqoChisay:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=10542))
+      comment: WB straight from ledge (.link([vod]https://youtu.be/Aw14LJhXV-8&t=10542))
 
   - .dir(<E)
   - _Npc<Vilia>:
@@ -1011,7 +1011,7 @@
 
   - .dir(N>) + midair
   - _Shrine::DakoTah:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=12002))
+      comment: Right peg, delayed turn (.link([vod]https://youtu.be/Aw14LJhXV-8&t=12002))
 
   - .dir(<<E)
   - _Korok::G34:
@@ -1021,7 +1021,16 @@
   - _Discover<Gerudo Desert Gateway>:
       coord: [-2924.12, 153.42, 2329.39]
 
-  - .dir(.E)
+  - .dir(E)
+  - _Korok::W19:
+      comment: On ledge
+
+  - _Shrine::KayNoh:
+      comment: Peg High WB OR Shock; Stasis; Mag (.link([vod]https://youtu.be/9q2gebqXM2o&t=5207))
+
+  - Run .dir(N)
+  - _Korok::W15
+
   - _Npc<Sesami>:
       coord: [-2797.53, 135.05, 2240.97]
 
@@ -1337,7 +1346,7 @@
 
   - .dir(S)
   - _Shrine::DowNaeh:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=14225))
+      comment: Aim at end, Square first (.link([vod]https://youtu.be/Aw14LJhXV-8&t=14225))
 
   - .dir(N) + .dir(W)
   - _Korok::N20
@@ -1385,7 +1394,7 @@
       comment: Behind shrine
 
   - _Shrine::MezzaLo:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=14598))
+      comment: Right peg, Aim at near right corner of cage, low WB (.link([vod]https://youtu.be/Aw14LJhXV-8&t=14598))
 
   - .dir(E)
   - _Korok::Z42:
@@ -1462,7 +1471,7 @@
       comment: Mipha Memory
 
   - _Shrine::NeezYohma:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=15220))
+      comment: Right peg/ledge, Turn right, High WB (.link([vod]https://youtu.be/Aw14LJhXV-8&t=15220))
 
   - .gale(GALE 1) + .dir(E)
   - _Korok::Z18
@@ -1674,7 +1683,7 @@
 
   - .dir(<N)
   - _Shrine::SahDahaj:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=17093))
+      comment: Left peg, 90 right (.link([vod]https://youtu.be/Aw14LJhXV-8&t=17093))
 
   - .dir(N)
   - _Korok::E34
@@ -1789,7 +1798,7 @@
 
   - .dir(N>)
   - _Shrine::ShaeMosah:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=17871))
+      comment: WB up through hole off barrel (.link([vod]https://youtu.be/Aw14LJhXV-8&t=17871))
 
 - North Eldin/Akkala:
 
@@ -1828,7 +1837,7 @@
       comment: Top of crab island
 
   - _Shrine::ShoraHah:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=18193))
+      comment: Left peg, 90 left, aim right slightly, WB and glide (.link([vod]https://youtu.be/Aw14LJhXV-8&t=18193))
 
   - Ride minecart:
       icon: tots
@@ -2135,7 +2144,7 @@
 
   - .dir(W) run
   - _Shrine::KatosaAug:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=20366))
+      comment: Straight short (.link([vod]https://youtu.be/Aw14LJhXV-8&t=20366))
 
   - .dir(W>) run
   - _Npc<Soldier Guy>:
@@ -2213,7 +2222,7 @@
 
   - .dir(E. + midair)
   - _Shrine::DaqaKoh:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=21063))
+      comment: Straight high (.link([vod]https://youtu.be/Aw14LJhXV-8&t=21063))
 
   - .dir(S>>)
   - _Equipment::Weapon<Drillshaft>:
@@ -2292,7 +2301,7 @@
           - pop
 
   - _Shrine::KayraMah:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=22150))
+      comment: Peg straight + midair (.link([vod]https://youtu.be/Aw14LJhXV-8&t=22150))
 
   - .dir(N)
   - _Korok::E20:
@@ -2322,7 +2331,7 @@
 
   - .dir(<W)
   - _Shrine::QuaRaym:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=22384))
+      comment: Short off stairs (.link([vod]https://youtu.be/Aw14LJhXV-8&t=22384))
 
 - Korok Forest:
 
@@ -2447,7 +2456,7 @@
   - _Warp::Shrine::KeoRuug:
       comment: WARP
   - _Shrine::KeoRuug:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=23368))
+      comment: Straight off ledge (.link([vod]https://youtu.be/Aw14LJhXV-8&t=23368))
 
   - .dir(E)
   - _Npc<Damia>:
@@ -2791,7 +2800,7 @@
 
   - midair .dir(S>)
   - _Shrine::MonyaToma:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=25933))
+      comment: WB from up ramp (.link([vod]https://youtu.be/Aw14LJhXV-8&t=25933))
 
   - .dir(W)
   - _Shrine::MaagNorah:
@@ -2853,7 +2862,7 @@
       hide-icon-on-map: true
 
   - _Shrine::TohYahsa:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=26469))
+      comment: Straight from peg (.link([vod]https://youtu.be/Aw14LJhXV-8&t=26469))
 
   - .dir(S) short
   - _Korok::R14
@@ -2874,7 +2883,7 @@
 
   - .dir(.E)
   - _Shrine::ZaltaWa:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=26656))
+      comment: Straight wb (.link([vod]https://youtu.be/Aw14LJhXV-8&t=26656))
 
   - .dir(E>)
   - _Korok::C24:
@@ -2956,7 +2965,7 @@
       notes: Use Falcon Bow
 
   - _Shrine::SheemDagoze:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=27131))
+      comment: Shield jump dmg boost (.link([vod]https://youtu.be/Aw14LJhXV-8&t=27131))
 
   - .dir(N)
   - _Korok::R38:
@@ -3087,7 +3096,7 @@
 
   - .dir(NW)
   - _Shrine::KaamYatak:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=628))
+      comment: 45 left, ledge, turn to reduce height (.link([vod]https://youtu.be/9q2gebqXM2o&t=628))
 
   - .dir(S>)
   - _Korok::C61
@@ -3161,7 +3170,7 @@
 
   - .dir(<<W)
   - _Shrine::RotaOoh:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=1151))
+      comment: Left peg, 90 left (.link([vod]https://youtu.be/9q2gebqXM2o&t=1151))
 
   - .dir(<W)
   - _Korok::C85
@@ -3233,7 +3242,7 @@
       coord: [-2005.45, 225.98, 1740.65]
 
   - _Shrine::JolooNah:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=1871))
+      comment: Shock; Apparatus + Stasis; WB (.link([vod]https://youtu.be/9q2gebqXM2o&t=1871))
 
   - _Tod::Noon:
       notes: For Sasa Kai timing. Can make noon later in this segment for more margin of error.
@@ -3420,7 +3429,7 @@
       comment: Drop luminous stone
       notes: Smash an ore and take a luminous stone for easier menuing. Check that you have at least 10.
   - _Shrine::ShoDantu:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=3341))
+      comment: Right peg, 90 right, Aim at right sconce, High WB (.link([vod]https://youtu.be/9q2gebqXM2o&t=3341))
 
   - .dir(NW)
   - _Korok::W02:
@@ -3452,7 +3461,7 @@
 
   - .dir(W) + midair
   - _Shrine::KemaZoos:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=3626))
+      comment: Peg straight (.link([vod]https://youtu.be/9q2gebqXM2o&t=3626))
 
   - Step back and .gale(GALE 1)
 
@@ -3508,7 +3517,7 @@
       comment: SNAP in shrine
 
   - _Shrine::HawaKoth:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=4043)) Set skew outside
+      comment: Shock; Cryo + Set Skew; Clip (.link([vod]https://youtu.be/9q2gebqXM2o&t=4043))
 
   - _Npc::Gerudo<Barta>:
       comment: Behind shrine
@@ -3630,15 +3639,6 @@
   - _Korok::W30
 
   - .dir(NW)
-  - _Korok::W19:
-      comment: On ledge
-
-  - _Shrine::KayNoh:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=5207))
-
-  - Run .dir(N)
-  - _Korok::W15
-
   - _Npc<Sesami>:
       coord: [-2797.53, 135.05, 2240.97]
       comment: Missing in Action
@@ -3711,7 +3711,7 @@
 
   - Down
   - _Shrine::JeeNoh:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=5633))
+      comment: Peg straight (.link([vod]https://youtu.be/9q2gebqXM2o&t=5633))
 
   - .dir(N>)
   - _Korok::G36
@@ -3796,7 +3796,7 @@
 
   - .dir(SE)
   - _Shrine::YaNaga:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=6247))
+      comment: Bomb arrow roof + ride block (.link([vod]https://youtu.be/9q2gebqXM2o&t=6247))
 
   - _Tod::Night:
       comment: if needed
@@ -3993,7 +3993,7 @@
 
   - .dir(S)
   - _Shrine::KaoMakagh:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=7652))
+      comment: Peg straight (.link([vod]https://youtu.be/9q2gebqXM2o&t=7652))
 
   - .dir(S)
   - Start L65 race:
@@ -4125,7 +4125,7 @@
 
   - .dir(E)
   - _Shrine::IshtoSoh:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=8694))
+      comment: Peg straight (.link([vod]https://youtu.be/9q2gebqXM2o&t=8694))
 
   - .dir(N)
   - _Boss::Talus::Luminous:
@@ -4232,7 +4232,7 @@
 
   - .dir(SE)
   - _Shrine::WahgoKatta:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=9479))
+      comment: WB leftish (.link([vod]https://youtu.be/9q2gebqXM2o&t=9479))
 
   - .dir(S) surf
   - _Npc<Lady in Stable>:
@@ -4285,7 +4285,7 @@
 
   - .dir(W>)
   - _Shrine::BoshKala:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=9753))
+      comment: Glide through normally (.link([vod]https://youtu.be/9q2gebqXM2o&t=9753))
 
   - .dir(S) run
   - _Korok::D32:
@@ -4387,11 +4387,11 @@
 
   - .dir(E>)
   - _Shrine::ReeDahee:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=10487))
+      comment: 2 short wb OR BLSS (left peg aim at left torch) (.link([vod]https://youtu.be/9q2gebqXM2o&t=10487))
 
   - .dir(E>)
   - _Shrine::HaDahamar:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=10587))
+      comment: Left peg, aim left of waterfall; High WB off rafters (.link([vod]https://youtu.be/9q2gebqXM2o&t=10587))
 
   - .dir(E)
   - _Korok::D42
@@ -4425,10 +4425,10 @@
       comment: Weapon Connoisseur
 
   - _Shrine::SheeVaneer:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=10825))
+      comment: Peg straight (.link([vod]https://youtu.be/9q2gebqXM2o&t=10825))
   - Drop down .dir(N)
   - _Shrine::SheeVenath:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=10893))
+      comment: Peg straight (.link([vod]https://youtu.be/9q2gebqXM2o&t=10893))
 
   - .dir(<W)
   - _Korok::D48
@@ -4604,7 +4604,7 @@
       comment: at cookpot
 
   - _Shrine::ShaiUtoh:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=12053)) Cave behind rubble
+      comment: Cave behind rubble; Left peg, aim right side of seesaw (.link([vod]https://youtu.be/9q2gebqXM2o&t=12053))
 
   - .dir(<E) + midair .dir(<S)
 
@@ -4672,7 +4672,7 @@
 
   - .dir(N)
   - _Shrine::ShodaSah:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=12545))
+      comment: Low wb (.link([vod]https://youtu.be/9q2gebqXM2o&t=12545))
 
   - .dir(S) short
   - _Korok::F19:
@@ -4807,7 +4807,7 @@
       hide-icon-on-map: true
       comment: Crouch
   - _Shrine::KahYah:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=13599))
+      comment: WB off the ramp (.link([vod]https://youtu.be/9q2gebqXM2o&t=13599))
 
   - .gale(GALE 1) + .dir(W) midair
 
@@ -4865,7 +4865,7 @@
 
   - .dir(W>)
   - _Shrine::YahRin:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=13864))
+      comment: Right peg, aim left side post of right scale (.link([vod]https://youtu.be/9q2gebqXM2o&t=13864))
 
 - Eventide:
 
@@ -5054,7 +5054,7 @@
 
   - .dir(NE)
   - _Shrine::HilaRao:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=15347))
+      comment: WB up onto right side (.link([vod]https://youtu.be/9q2gebqXM2o&t=15347))
 
   - Run (avoid flowers)
   - _Npc<Flower Lady>:
@@ -5153,7 +5153,7 @@
 
   - .dir(<<N)
   - _Shrine::ShehRata:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=15978))
+      comment: WB to end off ledge (.link([vod]https://youtu.be/9q2gebqXM2o&t=15978))
 
 - Central:
 
@@ -5234,7 +5234,7 @@
   - _Korok::K33
 
   - _Shrine::MirroShaz:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=16657))
+      comment: Stasis normally or shield clip; bomb arrow small block (.link([vod]https://youtu.be/9q2gebqXM2o&t=16657))
 
   - .dir(<W)
   - _Npc<Balloon Girl>:
@@ -5269,6 +5269,7 @@
       notes: From chest in shrine
   - _Shrine::NamikaOzz:
       comment: Modest Test of Strength
+      notes: Make Night for Stalnox if needed
 
   - .dir(W)
   - _Korok::C09:
@@ -5487,7 +5488,7 @@
 
   - .dir(N>)
   - _Shrine::KahOkeo:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=18268))
+      comment: Bomb fan, round corner, WB + pump, glide to end (.link([vod]https://youtu.be/9q2gebqXM2o&t=18268))
 
 - Tabantha:
 
@@ -5571,7 +5572,7 @@
       hide-icon-on-map: true
       comment: Fire arrow before 1:15pm
   - _Shrine::BareedaNaag:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=19002))
+      comment: Peg straight short (.link([vod]https://youtu.be/9q2gebqXM2o&t=19002))
 
   - .dir(N)
   - _Korok::T15
@@ -5612,7 +5613,7 @@
       comment: Amali
 
   - _Shrine::AkhVaquot:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=19172))
+      comment: WB off a fan pedestal (.link([vod]https://youtu.be/9q2gebqXM2o&t=19172))
 
   - _Korok::T14:
       comment: Step back, aim all the way up
@@ -5656,7 +5657,7 @@
       comment: 4-5-3-1-2
       notes: Talk to Kheel for Korok Leaf if you don't have one
   - _Shrine::VooLota:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=19482))
+      comment: Trapdoor and midair (.link([vod]https://youtu.be/9q2gebqXM2o&t=19482))
 
   - .dir(<S) run
   - _Material<3 Spicy Pepper>:
@@ -5759,7 +5760,7 @@
 
   - .dir(W.)
   - _Shrine::ShaeLoya:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=19999))
+      comment: Peg straight high (.link([vod]https://youtu.be/9q2gebqXM2o&t=19999))
 
   - .dir(.N) run
   - _Npc::SheikaMale<Pointing guy>:
@@ -5793,7 +5794,7 @@
 
   - .dir(N>) + midair
   - _Shrine::DunbaTaag:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=21886))
+      comment: Straight off ledge onto wall (.link([vod]https://youtu.be/9q2gebqXM2o&t=21886))
 
   - .dir(.S) from behind shrine
   - _Korok::H73:
@@ -5984,7 +5985,7 @@
 
   - .gale(GALE 3) + N midair
   - _Shrine::TahMuhl:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=23299))
+      comment: Through leaves ahead, climb up slope (.link([vod]https://youtu.be/9q2gebqXM2o&t=23299))
 
   - .dir(E.) + midair
   - _Korok::E44:
@@ -5992,7 +5993,7 @@
 
   - .dir(N>)
   - _Shrine::MoaKeet:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=23394))
+      comment: WB, catch a glide (.link([vod]https://youtu.be/9q2gebqXM2o&t=23394))
 
   - .dir(<W) short
   - _Npc<Painting guy in stable>:
@@ -6048,7 +6049,7 @@
 
   - .dir(.N)
   - _Shrine::ZeKasho:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=23782))
+      comment: Far left of ledge, aim at right corner diagonal (.link([vod]https://youtu.be/9q2gebqXM2o&t=23782))
 
   - .dir(E)
   - _Npc::SheikaFemale<Big Sister>:
@@ -6184,7 +6185,7 @@
 
   - .dir(E) to cave entrance
   - _Shrine::MakaRah:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=24903))
+      comment: Right peg, aim left side of right torch base (.link([vod]https://youtu.be/9q2gebqXM2o&t=24903))
 
 - Kakariko / Hateno:
 
@@ -6361,7 +6362,7 @@
       comment: 9pm-4am
       coord: [2509.80, 117.88, 1522.78]
   - _Shrine::KamUrog:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=26279))
+      comment: Right peg, straight high (.link([vod]https://youtu.be/9q2gebqXM2o&t=26279))
 
   - .dir(S) + midair
   - _Boss::Talus::Stone:
@@ -6385,7 +6386,7 @@
 
   - .dir(<N)
   - _Shrine::TotoSah:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=26445)) Behind rubble
+      comment: Behind rubble; Right peg, aim at right sconce, catch glide
 
   - .dir(NE) run
   - _Korok::D56:
@@ -6517,7 +6518,7 @@
 
   - .dir(NE)
   - _Shrine::MyahmAgana:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=27040))
+      comment: Left peg, aim at left front torch (.link([vod]https://youtu.be/9q2gebqXM2o&t=27040))
 
   - .dir(N)
   - _Npc<Nebb>:
@@ -6616,7 +6617,7 @@
 
   - .dir(N.)
   - _Shrine::RuccoMaag:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=28048))
+      comment: Right peg low (.link([vod]https://youtu.be/9q2gebqXM2o&t=28048))
 
   - .dir(E>)
   - _Korok::Z53
@@ -6694,7 +6695,7 @@
 
   - .dir(S) surf
   - _Shrine::KahMael:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=28766)) Under slab
+      comment: Under slab; Left peg, aim slightly left and bounce (.link([vod]https://youtu.be/9q2gebqXM2o&t=28766))
 
 - Hebra East:
 
@@ -6754,7 +6755,7 @@
 
   - .dir(<<N)
   - _Shrine::RokUwog:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=29172))
+      comment: Right peg, aim at concave corner (.link([vod]https://youtu.be/9q2gebqXM2o&t=29172))
 
   - .dir(N) + .dir(<E)
   - _Korok::H13:
@@ -6766,7 +6767,7 @@
 
   - .dir(E)
   - _Shrine::ShaGehma:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=29308))
+      comment: Mag and Stasis (.link([vod]https://youtu.be/9q2gebqXM2o&t=29308))
 
   - .dir(E>)
   - _Korok::H06
@@ -6784,7 +6785,7 @@
       comment: Talk twice
 
   - _Shrine::RinOyaa:
-      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=29497))
+      comment: Turn 90 right, WB off ledge (.link([vod]https://youtu.be/9q2gebqXM2o&t=29497))
 
   - .dir(.W)
   - _Korok::H52
