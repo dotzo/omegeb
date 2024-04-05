@@ -4,7 +4,7 @@ version: 1.0
 
 route:
   use: ./main.yaml
-
+# https://github.com/Pistonight/celer-presets/ for what is included in presets
 config:
 - use: Pistonight/celer-presets/botw/full.yaml
 - plugins:
@@ -31,6 +31,8 @@ config:
         icon: camera
         icon-priority: 2
         comment: SNAP for QUEST
+
+      
 
 - splits:
   - user-defined-split

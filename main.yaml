@@ -285,9 +285,9 @@
       comment: Talk twice
 
   - IST:
-      coord: [1811.23, 221.34, 1050.06]
+      coord: [1801, 0, 1016.5]
       icon: link
-      hide-icon-on-map: true
+      hide-icon-on-map: false
       counter: .user-defined-split()
       notes: |
         Follow these .link([Detailed IST Instructions]https://docs.google.com/presentation/d/1AVJe_qxlJft2x4Dtv6zVQ9I1-esx9vKIZb9QDUpE56E/edit?usp=sharing). Here is a .link([video guide for the IST]https://youtu.be/0YZkmVyhfy4?t=3245).
@@ -297,9 +297,11 @@
   - Eat speedfood:
       icon: material
 
-  - .dir(N)> + .dir(N) + BLSS .dir(SE)
+  - .dir(E) + BLSS .dir(SE)
   - _Npc<Bolson>:
-      coord: [3302.77, 239.88, 2302.60]
+      movements: 
+        - to: [1923.75, 0, 1046.15625]
+        - to: [3302.77, 239.88, 2302.60]
       comment: Talk once
   - Cookpot:
       icon: cook
@@ -622,7 +624,7 @@
       icon: bow
 
   - _Material<Cold Darner>:
-      comment: null
+      comment: For Cold Elixer
   - _Chest::Special<Great Eagle Bow>:
       coord: [-3627.20, 323.57, -1830.81]
       notes: Chest gives autosave for WMC.
@@ -1357,6 +1359,12 @@
 
   - .dir(N>)
   - _Korok::N11:
+      movements: 
+        - to: [2496.04, 302.86, 892.13]
+        - push
+        - to: [2409.55, 269.61, 849.32]
+          color: white
+        - pop
       comment: " "
 
   - .dir(E)
@@ -1556,6 +1564,13 @@
 
   - .dir(N) + midair
   - _Korok::Z19:
+      movements:
+        - to: [4071.79, 483.77, -459.05]
+        - push
+        - to: [4118.09, 480.78, -474.36]
+          color: white
+        - pop
+        - to: [4071.79, 483.77, -459.05]
       comment: .rune(Magnesis) the boulder
 
   - _Korok::Z20
@@ -1711,12 +1726,28 @@
 
   - .dir(<W)
   - _Boss::Talus::Igneo:
-      coord: [1795.54, 394.18, -1746.73]
+      icon: null
+      movements: 
+        - to: [1796.4375,-1727.46875]
+        - push
+        - to: [1795.54, 394.18, -1746.73]
+          color: white
+          icon: talus-igneo
+        - pop
       comment: .fury(FURY 1-3) from ledge above
 
   - .dir(W)
   - _Korok::E26:
+      icon: null
+      movements:
+        - to: [1703,-1759.96875]
+        - push
+        - to: [1687.56, 427.40, -1717.09]
+          icon: korok-golf-boulder
+          color: white
+        - pop
       comment: " "
+
 
   - .dir(<W)
   - _Korok::E31
@@ -1725,6 +1756,15 @@
 
   - .dir(N.)
   - _Korok::E24:
+      icon: null
+      movements:
+        - to: [1468.58, 425.75, -1740.36]
+        - push
+        - to: [1412.02, 408.75, -1759.80]
+          icon: korok-golf-boulder
+          color: white
+        - pop
+          
       comment: " "
 
   - .dir(N>)
@@ -1880,6 +1920,14 @@
 
   - .dir(.W) + .dir(S>)
   - _Korok::H22:
+      icon: null
+      movements:
+        - to: [-1254.75, 529.05, -3230.49]
+        - push
+        - to: [-1110.80, 438.06, -3043.86]
+          color: white
+          icon: korok-golf-boulder
+        - pop
       comment: " "
       notes: WB away while it's rolling, but don't get too far away.
 
@@ -1943,6 +1991,7 @@
       comment: null
   - _Equipment::Bow<Lynel Bow>:
       hide-icon-on-map: true
+      comment: For Transmutation
 
   - _Korok::K03
 
@@ -2303,8 +2352,17 @@
   - _Shrine::KayraMah:
       comment: Peg straight + midair (.link([vod]https://youtu.be/Aw14LJhXV-8&t=22150))
 
-  - .dir(N)
+  - .dir(W) Run + .dir(N)
   - _Korok::E20:
+      icon: null
+      movements:
+        - to: [1992.75,-2033.03125]
+        - to: [1995.97, 579.82, -2106.65]
+        - push
+        - to: [2019.42, 557.72, -2172.90]
+          icon: korok-golf-boulder
+          color: white
+        - pop
       comment: " "
 
   - .dir(<E)
@@ -2318,7 +2376,13 @@
   - _Korok::E22:
       comment: " "
   - _Boss::Talus::Igneo:
-      coord: [2372.52, 507.89, -1998.62]
+      icon: null
+      movements: 
+        - push
+        - to: [2372.52, 507.89, -1998.62]
+          color: white
+          icon: talus-igneo
+        - pop
       notes: Wake + shoot from E22 island
 
   - .dir(E) super
@@ -2416,6 +2480,7 @@
   - _Npc<Peeks>:
       coord: [441.00, 248.56, -2133.05]
       comment: Legendary Rabbit Trial
+      notes: Inside at night
   - _Npc<Kula>:
       comment: Freezing Rod
       coord: [419.28, 248.65, -2134.93]
@@ -2473,7 +2538,7 @@
       coord: [251.03, 285.34, -1979.93]
       comment: Trial of Second Sight
 
-  - .dir(LW):
+  - .dir(<W):
       notes: Glide until the white void stops, then drop
 
   - _Equipment::Shield<Rusty Shield>:
@@ -2638,6 +2703,7 @@
   - .dir(S)
   - _Discover<Dining Hall>:
       hide-icon-on-map: true
+      notes: Remove armor to load the hall, stay naked until next equip
 
   - _Material<Raw Gourmet Meat>:
       coord: [-152.50, 210.39, -821.58]
@@ -2735,6 +2801,14 @@
 
   - Jump out → .dir(W)
   - _Korok::R19:
+      icon: null
+      movements: 
+        - to: [-1201.52, 186.82, -627.24]
+        - push
+        - to: [-1125.28, 157.91, -675.43]
+          color: white
+          icon: korok-golf-boulder
+        - pop
       comment: " "
 
   - .dir(N>)
@@ -2830,7 +2904,7 @@
   - .dir(.S)
   - _Tower::Ridgeland:
       notes: Equip ancient axe + wooden shield to avoid lightning
-      comment: 35.73%
+      comment: 35.89%
 
   - .dir(W)
   - _Korok::R15:
@@ -2978,6 +3052,7 @@
   - .dir(W>)
   - _Korok::R37:
       comment: Ledge on cliff
+      notes: If you already did Mijah Rokee, WB <S far + midairs to R72
 
   - .dir(<W) + midairs
   - _Npc::Rito<Kass>:
@@ -3143,6 +3218,7 @@
           - to: [-1506,1101]
           - to: [-1475,1175]
           - to: [-1449.49, 137.75, 1269.01]
+      notes: Buy Restless Crickets from Beedle if < 10
 
   - _Npc<Gourmet Meat Guy>:
       coord: [-1432.50, 137.72, 1264.50]
@@ -3314,7 +3390,7 @@
       comment: Gerudo Set + Snow Boots
       icon: shield
 
-  - .dir(>W)
+  - .dir(W>)
   - _Korok::G31:
       comment: Pinwheel on rock
       notes: Can backflip for bullet time
@@ -3674,7 +3750,7 @@
   - .dir(N>)
   - _Korok::G17
 
-  - .dir(E)
+  - .dir(E) - defuse
   - _Boss::Talus::Frost:
       coord: [-2919.99, 656.12, 1294.27]
       comment: .fury(FURY 1-3)
@@ -3870,9 +3946,17 @@
   - .dir(W) run
   - _Korok::L43
 
-  - .dir(SW)
+  - .dir(SW) - defuse
   - _Korok::L51:
-      notes: Stasis + 2 hits + shoot upwards
+      icon: null
+      movements:
+        - to: [116.57, 140.83, 2960.67]
+        - push
+        - to: [153.95, 143.87, 2981.72]
+          color: white
+          icon: korok-golf-boulder
+        - pop
+      notes: Stasis + 2 hits + shoot upwards with Falcon/Singleshot
 
   - .gale(GALE 2) + .dir(W)
   - _Tower::Lake:
@@ -3882,7 +3966,7 @@
   - _Korok::L48:
       comment: On small ledge against cliff
 
-  - .dir(SE) short
+  - .dir(SE) short - defuse
   - _Korok::L49
 
   - .dir(NE) down
@@ -3893,7 +3977,7 @@
   - _Korok::L59:
       comment: " "
 
-  - .dir(.S)
+  - .dir(.S) - defuse
   - _Korok::L60:
       comment: Up against cliff
 
@@ -4018,7 +4102,7 @@
 
   - .dir(S.)
   - _Korok::L70:
-      comment: " "
+      comment: "Jump forward BT"
 
   - .dir(E>) short
   - _Korok::L71
@@ -4029,10 +4113,26 @@
 
   - .dir(E)
   - _Korok::L74:
+      icon: null
+      movements: 
+        - to: [365,3662.84375]
+        - push
+        - to: [367.10, 176.93, 3642.12]
+          color: white
+          icon: korok-golf-boulder
+        - pop
       comment: " "
 
   - .dir(E)
   - _Korok::L76:
+      icon: null
+      movements: 
+        - to: [535.90, 190.36, 3638.16]
+        - push
+        - to: [522.47, 166.30, 3680.96]
+          color: white
+          icon: korok-golf-boulder
+        - pop
       comment: " "
 
   - .dir(S>) up
@@ -4073,9 +4173,17 @@
       comment: from cliff near Stalnox
       icon: tots
       hide-icon-on-map: true
+      coord: [61.4375,3389.84375]
   - _Boss::Hinox::Stal:
       comment: Shoot once + .fury(FURY 1-3)
-      coord: [100.50, 111.28, 3371.00]
+      icon: null
+      movements: 
+        - to: [61.4375,3389.84375]
+        - push
+        - to: [100.50, 111.28, 3371.00]
+          icon: hinox-stal
+          color: white
+        - pop
       notes: Kill stalnox while the horse is approaching you.
 
   - Ride to .loc(Mounted Archery Camp):
@@ -4119,7 +4227,7 @@
   - .dir(N) midair
   - _Korok::L68
 
-  - .dir(W>)
+  - .dir(W>) - defuse
   - _Korok::L67:
       comment: Pinwheel
 
@@ -4199,7 +4307,8 @@
   - _Korok::C53
 
   - .dir(<E)
-  - _Tower::Central
+  - _Tower::Central:
+      comment: 57.40%
 
   - .dir(N>) down
   - _Korok::C48:
@@ -4291,7 +4400,7 @@
   - _Korok::D32:
       comment: " "
 
-  - .dir(S.)
+  - .dir(S.) - defuse
   - _Korok::D31
 
   - .dir(S>)
@@ -4330,6 +4439,14 @@
 
   - .dir(<S)
   - _Korok::L16:
+      icon: null
+      movements:
+        - to: [341.48, 130.52, 2378.26]
+        - push
+        - to: [280.43, 97.65, 2405.01]
+          icon: korok-golf-boulder
+          color: white
+        - pop
       comment: " "
 
   - .dir(N)
@@ -4393,7 +4510,7 @@
   - _Shrine::HaDahamar:
       comment: Left peg, aim left of waterfall; High WB off rafters (.link([vod]https://youtu.be/9q2gebqXM2o&t=10587))
 
-  - .dir(E)
+  - .dir(E) - defuse
   - _Korok::D42
 
   - .dir(<N) + midair
@@ -4407,7 +4524,16 @@
   - _Korok::D30
 
   - .dir(E) + .dir(S) midair
-  - _Korok::D41
+  - _Korok::D41:
+     icon: null
+     movements:
+       - to: [1389.52, 450.25, 1858.39]
+       - push
+       - to: [1517.27, 400.25, 1850.08]
+         color: white
+         icon: korok-golf-boulder
+       - pop
+
 
   - .dir(W)
   - _Korok::D40
@@ -4449,9 +4575,17 @@
 
   - .dir(E>)
   - _Korok::L07:
+      icon: null
+      movements: 
+        - to: [1048.22, 245.83, 2183.37]
+        - push
+        - to: [908.29, 247.17, 2193.53]
+          color: white
+          icon: korok-golf-boulder
+        - pop
       comment: .rune(Stasis) 5 hits, aim at hole
 
-  - .dir(S>)
+  - .dir(S>) (.dir(S) if chased the boulder)
   - _Korok::L19
 
   - .dir(E>)
@@ -4606,12 +4740,11 @@
   - _Shrine::ShaiUtoh:
       comment: Cave behind rubble; Left peg, aim right side of seesaw (.link([vod]https://youtu.be/9q2gebqXM2o&t=12053))
 
-  - .dir(<E) + midair .dir(<S)
-
+  - .dir(<E) + midair .dir(<S) - defuse
   - _Korok::F48:
       notes: Make sure you have at least 4 bananas
 
-  - .dir(SE)
+  - .dir(SE) - defuse
   - _Korok::F55:
       comment: Up near enemy camp
 
@@ -4654,7 +4787,7 @@
   - _Korok::F42:
       comment: " "
 
-  - .dir(N)
+  - .dir(N) - defuse
   - _Boss::Talus::Stone:
       coord: [1690.73, 165.27, 3335.62]
 
@@ -4753,7 +4886,7 @@
       coord: [2584.90, 290.11, 3547.64]
       comment: Gift of Nightshade
 
-  - .dir(S>)
+  - .dir(S>) - defuse
   - _Korok::F47:
       comment: On peak
 
@@ -5022,7 +5155,7 @@
   - _Korok::D25:
       comment: " "
 
-  - .dir(<S)
+  - .dir(<S) - defuse
   - _Korok::D29:
       comment: On small island
 
@@ -5105,6 +5238,7 @@
   - _Npc::ZoraFemale<Finley>:
       coord: [2754.00, 189.53, -83.50]
       comment: Special Delivery
+      notes: Shoot cylinder in water
 
   - .dir(E)
   - _Npc::ZoraMale<Zora Monument>:
@@ -5139,12 +5273,9 @@
       icon: npc-zora-female
       movements:
           - to: [2754.00, 189.53, -83.50]
-          - to: [2789,-250]
-          - to: [2737,-341]
-          - to: [2658,-370]
-          - to: [2384,-248]
+          - to: [2660.5,-143.625]
           - to: [1760.46, 115.80, -36.04]
-      notes: BLSS the letter to the guy at the tent. Fall and don't pull glider, and the letter will survive. Don't fall into water.
+      notes: Run W and BLSS the letter to the guy at the tent. Fall and don't pull glider, and the letter will survive. Don't fall into water.
 
   - _Tod::Noon:
       coord: [1760.46, 115.80, -36.04]
@@ -5295,7 +5426,7 @@
   - .dir(NW) midair
   - _Korok::C18
 
-  - .dir(NW)
+  - .dir(NW) - defuse
   - _Korok::C10:
       comment: From bridge
 
@@ -5394,6 +5525,13 @@
   - _Korok::R68:
       comment: Pinwheel
   - _Korok::R69:
+      movements:
+        - to: [-1965.81, 255.74, 600.95]
+        - push
+        - to: [-2053.49, 258.47, 636.41]
+          icon: korok-acorn
+          color: white
+        - pop
       comment: Snipe from pinwheel
 
   - .dir(S) far
@@ -5426,6 +5564,14 @@
 
   - .dir(W) short
   - _Korok::R73:
+      icon: null
+      movements: 
+        - to: [-2348.58, 312.18, 739.06]
+        - push
+        - to: [-2351.15, 263.40, 846.18]
+          color: white
+          icon: korok-golf-boulder
+        - pop
       comment: Stasis and shoot boulder
 
   - .dir(W>>)
@@ -5508,13 +5654,21 @@
   - .dir(.N)
   - _Korok::T23
 
-  - .dir(SE)
+  - .dir(SE) - defuse
   - _Discover<Gisa Crater>
   - _Boss::Talus::Rare:
       coord: [-3929.30, 197.19, -1083.48]
 
   - .dir(<S)
   - _Korok::T28:
+      icon: null
+      movements: 
+        - to: [-3817.18, 231.14, -832.07]
+        - push
+        - to: [-3841.71, 218.42, -803.98]
+          icon: korok-golf-boulder
+          color: white
+        - pop
       comment: " "
 
   - .dir(S) run
@@ -5585,7 +5739,7 @@
   - .dir(W)
   - _Material<1 Cold Darner>:
       notes: There's another on the bridge to the shrine if you miss it.
-      comment: On landing pad
+      comment: On landing pad, for Jana
 
   - _Npc::Rito<Rito lady on flight pad>:
       coord: [-3632.60, 320.12, -1793.79]
@@ -5995,7 +6149,7 @@
   - _Shrine::MoaKeet:
       comment: WB, catch a glide (.link([vod]https://youtu.be/9q2gebqXM2o&t=23394))
 
-  - .dir(<W) short
+  - .dir(<W) short - defuse
   - _Npc<Painting guy in stable>:
       coord: [2620.40, 253.87, -1144.95]
       comment: Mayro
@@ -6422,6 +6576,14 @@
 
   - .dir(NE)
   - _Korok::N26:
+      icon: null
+      movements:
+        - to: [2349.53, 204.37, 1527.43]
+        - push
+        - to: [2276.03, 162.26, 1501.62]
+          color: white
+          icon: korok-golf-boulder
+        - pop
       comment: " "
 
   - .dir(<S)
@@ -6450,54 +6612,31 @@
   - .dir(W)
   - Shoot 10 targets:
       icon: tots
-      movements: 
-        - to: [2873.125,2066.5]
-        - push
-        - to: [2859.85, 125.92, 2006.76]
-          color: white
-        - pop
-        - push
-        - to: [2942.50, 127.50, 2014.27]
-          color: white
-        - pop
-        - push
-        - to: [2966.63, 119.08, 2116.76]
-          color: white
-        - pop
-        - push
-        - to: [2965.24, 117.79, 2117.93]
-          color: white
-        - pop
-        - push
-        - to: [2929.67, 120.46, 2135.82]
-          color: white
-        - pop
-        - push
-        - to: [2881.41, 123.69, 2142.18]
-          color: white
-        - pop
-        - push
-        - to: [2855.64, 122.88, 2119.72]
-          color: white
-        - pop
-        - push
-        - to: [2835.29, 122.50, 2101.18]
-          color: white
-        - pop
-        - push
-        - to: [2811.71, 121.67, 2080.08]
-          color: white
-        - pop
-        - push
-        - to: [2808.72, 122.06, 2048.74]
-          color: white
-        - pop
-        - push
-        - to: [2873.125,2066.5]
-          color: white
-        - pop
+      coords: [2873.125,2066.5]
 
-  - _Korok::N45
+  - _Korok::N45:
+      markers:
+        - at: [2859.85, 125.92, 2006.76]
+          color: lime
+        - at: [2942.50, 127.50, 2014.27]
+          color: lime
+        - at: [2966.63, 119.08, 2116.76]
+          color: lime
+        - at: [2965.24, 117.79, 2117.93]
+          color: lime
+        - at: [2929.67, 120.46, 2135.82]
+          color: lime
+        - at: [2881.41, 123.69, 2142.18]
+          color: lime
+        - at: [2855.64, 122.88, 2119.72]
+          color: lime
+        - at: [2835.29, 122.50, 2101.18]
+          color: lime
+        - at: [2811.71, 121.67, 2080.08]
+          color: lime
+        - at: [2808.72, 122.06, 2048.74]
+          color: lime
+          
 
   - .dir(S)
   - _Korok::N46
@@ -6565,6 +6704,14 @@
 
   - .dir(<N) + midair
   - _Korok::N25:
+      icon: null
+      movements:
+        - to: [4391.18, 170.93, 1463.30]
+        - push
+        - to: [4438.91, 141.72, 1432.92]
+          icon: korok-golf-boulder
+          color: white
+        - pop
       comment: " "
 
   - .dir(N.)
@@ -6641,7 +6788,7 @@
   - .dir(N.)
   - _Korok::Z36
 
-  - .dir(<W) + .dir(W>) midair:
+  - .dir(S) (stop, defuse) + .dir(W>) midair:
       notes: (optional) can use a GALE for more height
   - _Korok::Z35
 
@@ -6798,7 +6945,15 @@
       comment: Pinwheel on cliff edge
 
   - .dir(<E) down
-  - _Korok::H59
+  - _Korok::H59:
+      icon: null
+      movements: 
+        - to: [-1461.54, 245.19, -2361.67]
+        - push
+        - to: [-1414.65, 228.59, -2398.60]
+          color: white
+          icon: korok-golf-boulder
+        - pop
 
   - _Tod::Night:
       hide-icon-on-map: true
@@ -6889,7 +7044,7 @@
   - .!!(Upgrade armor):
       icon: tots
       hide-icon-on-map: true
-      notes: "7 full upgrades: Set of the Wild, Zora Set, Champion's Tunic"
+      notes: "7 full upgrades: Set of the Wild, Zora Set, Champion's Tunic (.link([Easy Inputs]https://pastebin.com/7neBvwV7))"
 
   - .dir(N.)
   - _Npc<Kilton>:
