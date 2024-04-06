@@ -6,7 +6,8 @@ route:
   use: ./main.yaml
 # https://github.com/Pistonight/celer-presets/ for what is included in presets
 config:
-- use: Pistonight/celer-presets/botw/full.yaml
+- use: Pistonight/celer-presets/botw/most.yaml
+- use: ./myKoroks.yaml
 - plugins:
   - use: link
   - use: split-format

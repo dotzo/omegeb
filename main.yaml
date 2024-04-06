@@ -303,6 +303,8 @@
       icon: link
       hide-icon-on-map: false
       counter: .user-defined-split()
+      vars:
+        korok-seed: 0
       notes: |
         Follow these .link([Detailed IST Instructions]https://docs.google.com/presentation/d/1MVL-HnRg_GDhSEotGfre64JWc0FrdjGEcoyZx9Spmwg/edit#slide=id.g261b3b9031a_0_14). Here is a .link([video guide for the IST]https://youtu.be/0YZkmVyhfy4?t=3245).
 
@@ -514,6 +516,8 @@
       icon: hestu
       coord: [2069.45, 188.17, 1422.25]
       notes: Get 2 bow slots
+      vars: 
+        korok-seed: .sub(3)
       counter: .user-defined-split()
 
   - .dir(.W)
@@ -537,6 +541,8 @@
       icon: hestu
       coord: [870.83, 131.54, 203.47]
       notes: Get 5 weapon slots
+      vars:
+        korok-seed: .sub(19)
 
   - .dir(S) run
   - _Korok::Z37:
@@ -611,6 +617,8 @@
       hide-icon-on-map: true
       icon: cook
       notes: .link([Prompt Entanglement Inputs to hold roasted carrot]https://i.imgur.com/sM2Ced2.png)
+      vars:
+        korok-seed: 0
       comment: R. Carrot + 3 fairy + princess
 
   - Save and Reload:
@@ -2487,6 +2495,11 @@
       icon: hestu
       coord: [466.03, 249.56, -2112.38]
       comment: 1 shield, max weapon, 1 bow
+      vars:
+        korok-seed: .sub(193) 
+        # 189 for last 5 weapon slots
+        # 1 for Shield
+        # 3 for 3rd bow slot
 
   - Unequip Weapon:
       icon: equipment
@@ -7133,9 +7146,14 @@
       icon: hestu
       coord: [466.03, 249.56, -2112.38]
       comment: All inventory upgrades
+      vars:
+        korok-seed: .sub(226)
+          # 67 for final 5 bows
+          # 159 for shields
 
   - _Chest::Special<Hestu's Gift>:
       hide-icon-on-map: true
+      notes: .var(korok-seed) Korok Seeds
 
   - _Npc<Korok near Deku Entrance>:
       comment: Korok Trials
